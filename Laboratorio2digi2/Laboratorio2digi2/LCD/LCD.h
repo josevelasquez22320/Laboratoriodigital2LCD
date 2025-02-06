@@ -5,8 +5,8 @@
  *  Author: josea
  */ 
 
-#ifndef LCD
-#define LCD
+#ifndef LCD_H
+#define LCD_H
 
 #define F_CPU 16000000UL
 #include <util/delay.h>
@@ -32,4 +32,4 @@ void lcd_print_text(const char *str);
 void lcd_clear_screen(void);
 void lcd_set_cursor_position(uint8_t row, uint8_t col);
 
-#endif /* LCD_16X2_8B_V2_H_ */
+#endif /* LCD_H */
