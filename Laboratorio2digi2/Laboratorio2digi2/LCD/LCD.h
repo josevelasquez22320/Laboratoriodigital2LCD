@@ -5,8 +5,8 @@
  *  Author: josea
  */ 
 
-#ifndef LCD_16X2_8B_V2_H_
-#define LCD_16X2_8B_V2_H_
+#ifndef LCD
+#define LCD
 
 #define F_CPU 16000000UL
 #include <util/delay.h>
